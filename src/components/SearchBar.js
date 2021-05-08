@@ -49,6 +49,7 @@ export default function SearchBar({
                         padding: 5,
                         cursor: 'pointer',
                     }}
+                    onClick={handleSearchMovies}
                 >
                     <FaSearch/>
                 </button>

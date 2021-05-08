@@ -34,7 +34,7 @@ export default function AppHome()
             const sharedNomineeIDS = params.get('nominees').split('_')
 
             sharedNomineeIDS.map(async (sharedNomID) => {
-                const url = `http://www.omdbapi.com/?i=${sharedNomID}&type=movie&apikey=97d1cff9`
+                const url = `https://www.omdbapi.com/?i=${sharedNomID}&type=movie&apikey=97d1cff9`
 
                 await axios.get(url)
                 .then((res) => {
@@ -63,7 +63,7 @@ export default function AppHome()
     }, [nominees])
 
     const searchMovies = async (pageNo) => {
-        const url = `http://www.omdbapi.com/?s=${query}&page=${pageNo}&type=movie&apikey=97d1cff9`
+        const url = `https://www.omdbapi.com/?s=${query}&page=${pageNo}&type=movie&apikey=97d1cff9`
 
         await axios.get(url)
         .then(async (res) => {
@@ -206,6 +206,7 @@ export default function AppHome()
                         nominees={nominees}
                         setNominees={setNominees}
                         fromlink={fromlink}
+                        setFromLink={setFromLink}
                     />
                 </div>
             </div>

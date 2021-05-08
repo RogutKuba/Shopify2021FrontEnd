@@ -12,7 +12,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://RogutKuba.github.io/Shopify2021FrontEnd",
+  "homepage": "https://RogutKuba.github.io/Shopify2021FrontEnd",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

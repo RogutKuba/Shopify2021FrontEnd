@@ -4,6 +4,7 @@ export default function Nominees({
     nominees,
     setNominees,
     fromlink,
+    setFromLink
 })
 {
     const [link, setLink] = useState(null)
@@ -19,6 +20,8 @@ export default function Nominees({
         newNoms.splice(index, 1)
 
         console.log('new noms', newNoms, index)
+
+        setFromLink(false)
 
         setNominees(newNoms)
     }

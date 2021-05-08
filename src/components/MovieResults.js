@@ -33,7 +33,7 @@ export default function MovieResults({
                 justifyContent: query == '' ? 'center' : null,
             }}
         >
-            { query == '' ? (
+            { query == '' && results.length === 0 ? (
                     <span
                         style={{
                             textAlign: 'center'
