@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Shopify2021FrontEnd/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Shopify2021FrontEnd/static/js/main.b914303e.chunk.js",
+    "main.js.map": "/Shopify2021FrontEnd/static/js/main.b914303e.chunk.js.map",
+    "runtime-main.js": "/Shopify2021FrontEnd/static/js/runtime-main.3b46cf37.js",
+    "runtime-main.js.map": "/Shopify2021FrontEnd/static/js/runtime-main.3b46cf37.js.map",
+    "static/js/2.5813fcde.chunk.js": "/Shopify2021FrontEnd/static/js/2.5813fcde.chunk.js",
+    "static/js/2.5813fcde.chunk.js.map": "/Shopify2021FrontEnd/static/js/2.5813fcde.chunk.js.map",
+    "static/js/3.999f1316.chunk.js": "/Shopify2021FrontEnd/static/js/3.999f1316.chunk.js",
+    "static/js/3.999f1316.chunk.js.map": "/Shopify2021FrontEnd/static/js/3.999f1316.chunk.js.map",
+    "index.html": "/Shopify2021FrontEnd/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Shopify2021FrontEnd/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.5813fcde.chunk.js.LICENSE.txt": "/Shopify2021FrontEnd/static/js/2.5813fcde.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Shopify2021FrontEnd/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b46cf37.js",
+    "static/js/2.5813fcde.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.b914303e.chunk.js"
+  ]
+}
